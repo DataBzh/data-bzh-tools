@@ -41,7 +41,7 @@ databzhPlot(ggplot(...))
 ##### Arguments
 
 | Argument | Description | Type / Valeurs |
-|--|--|--|
+|----|----|----|
 | plot | Objet graphique ggplot2 | ggplot |
 | size | Taille du logo à afficher | numeric |
 | type | Type de logo | "url.transparent", "url.background", "simple.transparent", "simple.background" |
@@ -51,7 +51,7 @@ databzhPlot(ggplot(...))
 Logos :
 
 | Type | Logo |
-|--|--|
+|----|----|
 | "url.transparent" | ![](medias/logo-data-bzh.url.transparent.png) |
 | "url.background" | ![](medias/logo-data-bzh.url.background.png) |
 | "simple.transparent" | ![](medias/logo-data-bzh.simple.transparent.png) |
@@ -69,7 +69,7 @@ databzhSavePlot(databzhPlot(ggplot(...)), "image.png")
 ##### Arguments
 
 | Argument | Description | Type / Valeurs |
-|--|--|--|
+|----|----|----|
 | plot | Objet graphique | |
 | filename | Nom du fichier à sauver | character |
 | width | Largeur du graphique | integer |
@@ -87,7 +87,7 @@ databzh$height
 ```
 
 | Constante | Description | Valeur |
-|--|--|--|
+|----|----|----|
 | theme | Thème ggplot2 Data-Bzh | |
 | colour | Couleur de thème principale | "#973232" |
 | colour1 | Couleur 1 | "#E18C8C" |
