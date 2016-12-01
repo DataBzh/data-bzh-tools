@@ -13,7 +13,7 @@ source("DataBzhTools/main.R")
     xlab("Petal Length") +
     ylab("Petal Width") +
     ggtitle("Iris") +
-    databzh$theme,
+    databzhtheme(),
   ypos = "bottom"
 ))
 
@@ -80,7 +80,6 @@ databzhSavePlot(databzhPlot(ggplot(...)), "image.png")
 L'objet `databzh` contient de multiples constantes.
 
 ```r
-databzh$theme
 databzh$colour
 databzh$width
 databzh$height
@@ -88,13 +87,15 @@ databzh$height
 
 | Constante | Description | Valeur |
 |----|----|----|
-| theme | Thème ggplot2 Data-Bzh | |
 | colour | Couleur de thème principale | "#973232" |
-| colour1 | Couleur 1 | "#E18C8C" |
-| colour2 | Couleur 2 | "#B75353" |
-| colour3 | Couleur 3 | "#711515" |
-| colour4 | Couleur 4 | "#490101" |
-| colours | Couleurs | c("#973232", "#E18C8C", "#B75353", "#711515", "#490101") |
+| colour1 | Couleur 1 | "#1E5B5B" |
+| colour2 | Couleur 2 | "#6D8D2F" |
+| colour3 | Couleur 3 | "#287928" |
+| colour4 | Couleur 4 | "#E18C8C" |
+| colour4 | Couleur 5 | "#548787" |
+| colour4 | Couleur 6 | "#B8D283" |
+| colour4 | Couleur 7 | "#70B470" |
+| colours | Toutes les Couleurs | c("#973232", "#1E5B5B", "#6D8D2F", "#287928", "#E18C8C", "#548787", "#B8D283", "#70B470", "#B75353", "#326E6E", "#8CAA4E", "#439243", "#711515", "#0D4444", "#4D6914", "#115A11", "#490101", "#012C2C", "#2E4401", "#013A01") |
 | width | Largeur de sauvegarde des images | 1200 |
 | height | Hauteur de sauvegarde des images | 600 |
 | logo | Logos, utilisés par la fonction privée `.databzhLogo` | |
