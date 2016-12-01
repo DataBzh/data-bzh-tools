@@ -15,8 +15,7 @@ switch(
 # Thème ggplot2 ----
 library(ggplot2)
 
-databzh$theme <- theme(
-  axis.text = element_text(size = 10),
+databzhtheme <- function(axis.text = element_text(size = 10),
   axis.title = element_text(size = 15),
   title = element_text(size = 18),
   plot.title = element_text(margin = margin(0, 0, 20, 0), size = 18, hjust = .5),
@@ -24,16 +23,36 @@ databzh$theme <- theme(
   axis.title.y = element_text(margin = margin(0, 20, 0, 0)),
   legend.text = element_text(size = 12),
   plot.margin = margin(20, 20, 20, 20), 
-  panel.background = element_rect(fill = "white"), 
-  panel.grid.major = element_line(colour = "grey")
-)
+  panel.background = element_rect(fill = "white"),
+  panel.grid.major = element_line(colour = "grey"),
+  ...){
+  th <- theme(
+    axis.text = axis.text,
+    axis.title = axis.title,
+    title = title,
+    plot.title = plot.title,
+    axis.title.x = axis.title.x,
+    axis.title.y = axis.title.y,
+    legend.text = legend.text,
+    plot.margin = plot.margin, 
+    panel.background = panel.background, 
+    panel.grid.major = panel.grid.major,
+    ...)
+  return(th)
+}
 
 # Couleurs ----
-databzh$colour <- "#973232"
-databzh$colour1 <- "#E18C8C"
-databzh$colour2 <- "#B75353"
-databzh$colour3 <- "#711515"
-databzh$colour4 <- "#490101"
+databzh$colours <- c("#973232", "#1E5B5B", "#6D8D2F", "#287928", "#E18C8C", "#548787", "#B8D283", "#70B470", "#B75353", "#326E6E", "#8CAA4E", "#439243", "#711515", "#0D4444", "#4D6914", "#115A11", "#490101", "#012C2C", "#2E4401", "#013A01")
+
+#Shortcuts couleurs
+databzh$colour1 <- databzh$colours[1]
+databzh$colour2 <- databzh$colours[2]
+databzh$colour3 <- databzh$colours[3]
+databzh$colour4 <- databzh$colours[4]
+databzh$colour5 <- databzh$colours[5]
+databzh$colour6 <- databzh$colours[6]
+databzh$colour7 <- databzh$colours[7]
+databzh$colour8 <- databzh$colours[8]
 
 databzh$colours <- c(databzh$colour, databzh$colour1, databzh$colour2, databzh$colour3, databzh$colour4)
 
