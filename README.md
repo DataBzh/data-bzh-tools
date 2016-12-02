@@ -13,7 +13,7 @@ source("DataBzhTools/main.R")
     xlab("Petal Length") +
     ylab("Petal Width") +
     ggtitle("Iris") +
-    databzhtheme(),
+    databzhTheme(),
   ypos = "bottom"
 ))
 
