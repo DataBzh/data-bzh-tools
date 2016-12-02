@@ -15,7 +15,7 @@ switch(
 # Thème ggplot2 ----
 library(ggplot2)
 
-databzhtheme <- function(axis.text = element_text(size = 10),
+databzhTheme <- function(axis.text = element_text(size = 10),
   axis.title = element_text(size = 15),
   title = element_text(size = 18),
   plot.title = element_text(margin = margin(0, 0, 20, 0), size = 18, hjust = .5),
