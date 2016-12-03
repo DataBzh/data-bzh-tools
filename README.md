@@ -88,15 +88,15 @@ databzh$height
 | Constante | Description | Valeur |
 |----|----|----|
 | colour | Couleur de thème principale | "#973232" |
-| colour1 | Couleur 1 | "#1E5B5B" |
-| colour2 | Couleur 2 | "#6D8D2F" |
-| colour3 | Couleur 3 | "#287928" |
-| colour4 | Couleur 4 | "#E18C8C" |
-| colour4 | Couleur 5 | "#548787" |
-| colour4 | Couleur 6 | "#B8D283" |
-| colour4 | Couleur 7 | "#70B470" |
+| colour1 | Couleur de thème principale | "#973232" |
+| colour2 | Couleur 2 | "#1E5B5B" |
+| colour3 | Couleur 3 | "#6D8D2F" |
+| colour4 | Couleur 4 | "#287928" |
+| colour5 | Couleur 5 | "#E18C8C" |
+| colour6 | Couleur 6 | "#548787" |
+| colour7 | Couleur 7 | "#B8D283" |
+| colour8 | Couleur 8 | "#70B470" |
 | colours | Toutes les Couleurs | c("#973232", "#1E5B5B", "#6D8D2F", "#287928", "#E18C8C", "#548787", "#B8D283", "#70B470", "#B75353", "#326E6E", "#8CAA4E", "#439243", "#711515", "#0D4444", "#4D6914", "#115A11", "#490101", "#012C2C", "#2E4401", "#013A01") |
 | width | Largeur de sauvegarde des images | 1200 |
 | height | Hauteur de sauvegarde des images | 600 |
-| logo | Logos, utilisés par la fonction privée `.databzhLogo` | |
-
+| logo | Logos utilisés par la fonction privée `.databzhLogo` | |
