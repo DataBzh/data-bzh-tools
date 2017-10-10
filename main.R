@@ -194,7 +194,7 @@ databzhLogo <- function(plot,
 #'
 #' @param plot objet graphique ggplot2
 #' @param size taille du logo à afficher
-#' @param type type de logo (url.transparent, url.background, simple.transparent, simple.background)
+#' @param type type de logo (url.transparent, url.background, simple.transparent, simple.background, none)
 #' @param xpos position horizontale du logo (left, right)
 #' @param ypos position verticale du logo (bottom, top)
 #' @return objet graphique ggplot2 avec le logo Data-Bzh.
@@ -208,7 +208,10 @@ databzhPlot <- function(plot,
                         ypos = "top") {
   stopifnot("ggplot" %in% class(plot))
   
-  plotWithLogo <- plot + databzhLogo(plot, size, type, xpos, ypos)
+  plotWithLogo <- plot
+  if (type != "none") {
+	plotWithLogo <- plotWithLogo + databzhLogo(plot, size, type, xpos, ypos)
+  }
   
   return(plotWithLogo)
 }
