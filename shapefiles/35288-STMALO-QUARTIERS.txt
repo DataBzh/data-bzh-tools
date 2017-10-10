@@ -1,0 +1,42 @@
+﻿
+================================================
+      IDENTIFICATION
+================================================
+
+Périmètre des quartiers de Saint-Malo
+
+================================================
+      DESCRIPTION
+================================================
+
+Le fichier permet la localisation des emprises des 15 quartiers de Saint-Malo, avec indication notamment des élus de quartiers, du lieu de permanence (maisons de quartier) et des horaires de permanence.
+
+================================================
+      INFORMATIONS TECHNIQUES
+================================================
+
+Date de dernière mise à jour 	: 04/03/2015
+Format 				: fichier de polygones SHP (ESRI) 
+Encodage 			: windows-1252
+Système de référence original  	: RGF93/Lambert-93 (EPSG:2154)
+
+================================================
+      ATTRIBUTS
+================================================
+
+NUMERO     : numéro d'identification du quartier
+QUARTIER   : nom du quartier
+ELU1 	   : élu référent pour le quartier
+ELU2 	   : élu référent pour le quartier
+LIEU 	   : lieu où est assurée la permanence des élus de quartier (fait également office de maison de quartier)
+PERMANENCE : horaires de permanence des élus de quartier
+
+================================================
+      CONTACTS
+================================================
+
+Point de contact :
+Service Grands Projets et Développement Durable
+opendata@saint-malo.fr
+
+
